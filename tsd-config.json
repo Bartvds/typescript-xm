@@ -1,0 +1,13 @@
+{
+    "localPath": "lib/typings",
+    "repo": {
+        "uriList": [
+            {
+                "sourceType": 1,
+                "source": "http://www.tsdpm.com/repository_v2.json"
+            }
+        ]
+    },
+    "dependencies": {
+    }
+}

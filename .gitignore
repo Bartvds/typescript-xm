@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+
+/*.tgz
+/.idea
+/test/tmp
+/tmp
+_tmp.*
