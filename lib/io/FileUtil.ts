@@ -1,4 +1,4 @@
-///<reference path="_ref.ts" />
+///<reference path="../_ref.ts" />
 
 module xm {
 
@@ -57,9 +57,11 @@ module xm {
 
 		static inspectJSON(object:any, label?:string):any {
 			if (typeof label !== 'undefined') {
-				console.log(label + ':');
+				console.log(label + ':' + JSON.stringify(object, null, 4));
 			}
-			console.log(JSON.stringify(object, null, 4));
+			else {
+				console.log(JSON.stringify(object, null, 4));
+			}
 		}
 	}
 }

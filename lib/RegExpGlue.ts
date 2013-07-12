@@ -1,4 +1,4 @@
-///<reference path="_ref.ts" />
+///<reference path="../src/_ref.ts" />
 
 module xm {
 

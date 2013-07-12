@@ -1,5 +1,5 @@
 ///<reference path="../_ref.ts" />
-///<reference path="../../src/xm/RegExpGlue.ts" />
+///<reference path="../../lib/RegExpGlue.ts" />
 
 describe('xm.RexExpGlue', () => {
 

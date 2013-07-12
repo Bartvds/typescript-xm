@@ -1,5 +1,5 @@
-///<reference path="_ref.ts" />
-///<reference path="KeyValueMap.ts" />
+///<reference path="../_ref.ts" />
+///<reference path="../KeyValueMap.ts" />
 
 module xm {
 

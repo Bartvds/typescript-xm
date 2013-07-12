@@ -13,6 +13,7 @@ if (typeof require === "function" && typeof exports === "object" && typeof modul
 	var chai = require('chai');
 	var _ = require('underscore');
 	chai.use(require('chai-fuzzy'));
+	require('source-map-support').install();
 }
 else {
 	// Browser

@@ -69,13 +69,13 @@ module.exports = function (grunt) {
 					format: 'script_src'
 				},
 				files: [
-					{dest: 'test/_tmp.phantom.bundle.js', cwd: 'test', src: ['any/*.test.js', 'browser/*.test.js'], filter: 'isFile'}
+					{dest: 'test/_tmp.browser.bundle.js', cwd: 'test', src: ['any/*.test.js', 'browser/*.test.js'], filter: 'isFile'}
 				]
 			}
 		}
 	});
 
-	require('mocha-unfunk-reporter').option('color', true);
+	require('source-map-support').install();
 
 	grunt.registerTask('default', ['test']);
 	grunt.registerTask('build', ['clean', 'typescript', 'fileindex', 'mochaTest', 'mocha']);
